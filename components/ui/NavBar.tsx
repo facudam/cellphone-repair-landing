@@ -2,11 +2,11 @@ import Image from "next/image"
 import Link from "next/link"
 
 
-const NavBar = () => {
+export const NavBar = () => {
   return (
    <>
-    <div className="flex justify-center border-b py-2 px-3">
-      <nav className='flex w-full max-w-7xl sp justify-between items-center'>
+    <div className="flex justify-center border-b py-2 px-3 w-full">
+      <nav className='flex w-full max-w-screen-2xl sp justify-between items-center'>
           <Link href='/' className="flex justify-center items-center">
             <Image src='/mob-repair.png' width='50' height={100} alt="logo" />
             <span className="uppercase font-mono text-1xl">Reparación de celulares</span>
