@@ -5,8 +5,8 @@ import Link from "next/link"
 export const NavBar = () => {
   return (
    <>
-    <div className="flex justify-center border-b py-2 px-3 w-full">
-      <nav className='flex w-full max-w-screen-2xl sp justify-between items-center'>
+    <div className="flex justify-center py-2 px-3 w-full border-b">
+      <nav className='flex w-full max-w-7xl justify-between items-center'>
           <Link href='/' className="flex justify-center items-center">
             <Image src='/mob-repair.png' width='50' height={100} alt="logo" />
             <span className="uppercase font-mono text-1xl">Reparación de celulares</span>
@@ -24,7 +24,7 @@ export const NavBar = () => {
           </ul>  
       </nav>
     </div>
-    <div className="flex justify-center items-center py-2 gap-3">
+    <div className="flex justify-center items-center py-2 gap-3 border-b">
       <Link href='/'>
         <Image src='/logo-facebook.svg' alt="icono de facebook" width={25} height={25}/>
       </Link>

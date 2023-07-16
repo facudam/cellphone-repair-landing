@@ -9,7 +9,13 @@ export default function Home() {
   return (
     <>
       <Layout title='Reparamos tu celular' metaTitle='' description=''>
-        <Header />
+        <>
+          <div className='flex justify-center'>
+            <Header />
+          </div>
+          
+          <div className='w-full border-t'></div>
+        </>
       </Layout>
     </>
   )
