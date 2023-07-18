@@ -2,10 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: openSans;
+    src: url('../fonts/OpenSans-Light.ttf');
+}
+@font-face {
+    font-family: openSans-semibold;
+    src: url('../fonts/OpenSans-SemiBold.ttf');
+}
+
+body {
+    font-family: openSans, sans-serif;
+}
 .heigth-75vh {
     height: 80vh;
 }
-
+.title-weight {
+    font-family: openSans-semibold, sans-serif;
+}
 
 @media screen and (max-width: 1100px) {
     .bgd-image {
