@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <Layout title='Reparamos tu celular' metaTitle='' description=''>
+      <Layout title='Reparamos tu celular' description=''>
         <>
           <div className='flex justify-center px-3'>
             <Header />

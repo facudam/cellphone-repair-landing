@@ -9,7 +9,7 @@ export const Header = () => {
           <h1 className='text-6xl title-weight'>Reparación de celulares en Florencio Varela</h1>
           <p className='max-w-2xl text-lg text-slate-800'>Expertos en reparación de smartphones en zona sur. ¡Recupera la funcionalidad de tu celular con nosotros! Rápido, seguro y confiable. Tu celular en buenas manos.</p>
           <div className='flex gap-5'>
-            <Link className='py-3 px-7 bg-sky-600 uppercase font-semibold text-white' href='/'>Nuestros servicios</Link>
+            <Link className='py-3 px-7 bg-sky-600 uppercase font-semibold text-white' href='/#servicios'>Nuestros servicios</Link>
             <Link className='py-3 px-7 font-semibold uppercase border border-sky-600 text-sky-600' href=''>Contactanos</Link>
           </div>
         </div>

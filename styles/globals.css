@@ -15,6 +15,10 @@
     src: url('../fonts/LilitaOne-Regular.ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: openSans, sans-serif;
 }
