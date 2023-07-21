@@ -9,10 +9,10 @@ export const NavBar = () => {
       <nav className='flex w-full max-w-7xl justify-between items-center'>
           <Link href='/' className="flex justify-center items-center">
             <Image src='/mob-repair.webp' width='50' height={100} alt="logo" />
-            <span className="uppercase font-mono text-1xl">Reparación de celulares</span>
+            <span className=" text-lg logo-family uppercase">Reparación De Celulares</span>
           </Link>
           
-          <ul className="flex gap-7 uppercase">
+          <ul className="flex gap-7 uppercase font-semibold">
             <li><Link href='/'>Servicios</Link></li>
             <li><Link href='/'>Sobre nosotros</Link></li>
             <li><Link href='/'>Contacto</Link></li>

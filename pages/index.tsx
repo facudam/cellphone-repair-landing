@@ -1,7 +1,8 @@
-import Image from 'next/image'
+
 import { Inter } from 'next/font/google'
 import { Header } from '../components/ui'
-import { Layout } from '@/components/layout'
+import { Layout } from '../components/layout'
+import { Servicios } from '../sections'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -10,11 +11,11 @@ export default function Home() {
     <>
       <Layout title='Reparamos tu celular' metaTitle='' description=''>
         <>
-          <div className='flex justify-center'>
+          <div className='flex justify-center px-3'>
             <Header />
           </div>
           
-          <div className='w-full border-t'></div>
+          <Servicios />
         </>
       </Layout>
     </>

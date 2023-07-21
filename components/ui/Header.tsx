@@ -4,7 +4,7 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <header className='flex items-center flex-wrap gap-5 justify-between w-full max-w-7xl heigth-75vh text-slate-600' >
+    <header className='flex items-center flex-wrap gap-5 justify-between w-full max-w-7xl min-heigth text-slate-600' >
         <div className='flex flex-col w-full max-w-xl gap-5'>
           <h1 className='text-6xl title-weight'>Reparación de celulares en Florencio Varela</h1>
           <p className='max-w-2xl text-lg text-slate-800'>Expertos en reparación de smartphones en zona sur. ¡Recupera la funcionalidad de tu celular con nosotros! Rápido, seguro y confiable. Tu celular en buenas manos.</p>

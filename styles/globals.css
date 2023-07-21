@@ -10,12 +10,22 @@
     font-family: openSans-semibold;
     src: url('../fonts/OpenSans-SemiBold.ttf');
 }
+@font-face {
+    font-family: LilitaOne;
+    src: url('../fonts/LilitaOne-Regular.ttf');
+}
 
 body {
     font-family: openSans, sans-serif;
 }
-.heigth-75vh {
-    height: 80vh;
+.logo-family {
+    font-family: LilitaOne, sans-serif;
+}
+.color {
+    background-color: red;
+}
+.min-heigth {
+    min-height: calc(100vh - 66px);
 }
 .title-weight {
     font-family: openSans-semibold, sans-serif;
