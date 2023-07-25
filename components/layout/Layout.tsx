@@ -18,9 +18,9 @@ export const Layout: FC<LayoutProps> = ({ title, description, children }) => {
                 <meta name="description" content={ description } />
             </Head>
             <NavBar />
-            <main>
-                {children}
-            </main>
+            
+            {children}
+            
         </> 
     )
     
